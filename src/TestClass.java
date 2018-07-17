@@ -4,4 +4,7 @@
  * Copyright (C) 2017 Xiamen Yaxon Networks CO.,LTD.
  */
 public class TestClass {
+    public static void main(String[] args) {
+
+    }
 }
