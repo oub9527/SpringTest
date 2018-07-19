@@ -11,5 +11,6 @@ public class TestClass {
         System.out.println("zzz");
         System.out.println("GitTest");
         System.out.println("this is a second commit");
+        System.out.println("this is a branch commit");
     }
 }
