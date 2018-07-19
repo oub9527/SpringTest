@@ -9,5 +9,6 @@ public class TestClass {
         System.out.println("aaabbb");
         System.out.println("cccddd");
         System.out.println("zzz");
+        System.out.println("GitTest");
     }
 }
