@@ -6,6 +6,8 @@
 public class TestClass {
     public static void main(String[] args) {
 
-        System.out.println("try git");
+        System.out.println("a dev branch");
+        System.out.println("a oubin branch");
+        System.out.println("merge to dev branch");
     }
 }
