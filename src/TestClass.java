@@ -6,6 +6,6 @@
 public class TestClass {
     public static void main(String[] args) {
 
-        System.out.println("try git");
+        System.out.println("a dev branch");
     }
 }
