@@ -11,5 +11,7 @@ public class TestClass {
         System.out.println("a oubin branch");
         System.out.println("merge to dev branch");
         System.out.println("i have changed dev branch");
+
+        RealTest realTest = new RealTest();
     }
 }
