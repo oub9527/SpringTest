@@ -1,5 +1,10 @@
 package com.ob.java8.def;
 
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.function.IntPredicate;
+
 /**
  * @author: oubin
  * @date: 2018/12/20 11:07
@@ -14,5 +19,7 @@ public class Main {
         defaultable = DefaultableFactory.create(OverridableImpl::new);
         System.out.println(defaultable.notRequired());
 
+        List<String> x = new LinkedList<>();
+        Comparator<Integer> a = (z, y) -> z * y;
     }
 }
