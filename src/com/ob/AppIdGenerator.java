@@ -14,7 +14,6 @@ public class AppIdGenerator {
     private static String generation(int length) {
         String base = "abcdefghijklmnopqrstuvwxyz0123456789";
         Random random = new Random();
-        SecureRandom secureRandom = new SecureRandom();
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < length; i++) {
             int number = random.nextInt(base.length());
